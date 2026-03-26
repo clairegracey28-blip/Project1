@@ -9,10 +9,10 @@
   3. Naysa McFarlane
   4. Andy Smith
 
-## Problem Description:
+## Problem Description:   
   Problem: Create and build a relational database of a mock 'Major League Volleyball' database to demonstrate relationships between the volleyball league of teams, coaches, tournaments, players, etc. The central entity is the team entity of the volleyball league, displaying multiple relationships to find team specifics, such as name and location. Overall, the goal is to accurately model these relationships by generating sample data and populating each entity and its attributes with relevant sample data from Mockaroo. Furthermore, we aim to enable simple and complex querying of big sample data for team analysts, coaches, administrators, and other relevant stakeholders. This can show valuable operational and performance insights about teams or the league as a whole.
 
-## Data Model: 
+## Data Model:   **NOT FINISHED**
   Data Model Description:  
   
   Our data model is primarily based on a hypothetical volleyball league, called the MLV (Major League Volleyball). The data model is centered around the team entity. The team entity represents the numerous teams within the MLV. The team entity has many branches stemming from it, with the first being the player entity. Each team has many players, signifed by the one-to-many relationship between the team entity and the player entity.
@@ -30,7 +30,5 @@
   Each match is won when either team wins multiple sets. That being said, each set will only be won in one specific match. This creates a one-to-many relationship between the match entity and the set entity.
 
   In addition to the regular season, there are tournaments throughout the season. Each team will play in many tournaments throughout the season, and each tournament consists of many teams. 
-
-  **NOT FINISHED**
 
 <img width="589" height="745" alt="Screenshot 2026-03-26 at 8 24 23 AM" src="https://github.com/user-attachments/assets/bffdb22b-9594-492e-be86-7f5285550e4d" />
