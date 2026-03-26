@@ -10,7 +10,7 @@
   4. Andy Smith
 
 ## Problem Description:
-  Problem:
+  Problem: Create and build a relational database of a mock 'Major League Volleyball' database to demonstrate relationships between volleyball league of teams, coaches, tournaments, players, and etc. The central entity being the team entity of the volleyball league displaying multiple relationships to find team specifics such as name, and location based. Overall the goal is to accurately model these relationships by generating sample data and populating each entity and their attribute with relavant sample data we will use from Mockaroo. Furthermore, we aim to allow for simple and complex querying concerning big sample data interpretation for team analysts, coaches, adminstrators, and other relevant stakeholders. This can show valuable operational and performance insights about teams or the league as a whole
 
 ## Data Model: 
   Data Model Description:
