@@ -68,7 +68,9 @@
 <img width="551" height="384" alt="image" src="https://github.com/user-attachments/assets/a3ff4aa3-7d3f-4bfb-929d-834f3ed17a5e" />
 
 **Question**: What is the average height of players who play the setter position?
+
 **Description**: Query 1 provides the user with the average height of all players whose position matches the term "setter."
+
 **Managerial justification**: This can help coaches and team mangers understand typical physical profile of setters in the database. Furthermore, it can support recruiting, player development, and lineup insights for a position that often has specifc technical and physical expectations.
 
 ### Query 2
