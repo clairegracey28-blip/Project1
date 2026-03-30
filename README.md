@@ -95,7 +95,9 @@
 <img width="577" height="364" alt="Screenshot 2026-03-29 at 10 02 38 PM" src="https://github.com/user-attachments/assets/98881c9f-ffa0-46d4-8428-ab3cbf68f654" />
 
 **Question**: Which players with more than five years of playing experience have recorded knee injuries?
+
 **Descirption**: Query 4 provides the user with **previousInjuries** and **player** tables joined and players whose **yearsPlayed** is greater than five and whose injury record shows "knee."
+
 **Mangerial justification**: This is relevant for injury monitoring and risk management. Managers and coaches can use this to identify experienced players who may need more medical attention, modified training procedures, and longer term recovery planning.
 
 ### Query 5
@@ -106,6 +108,7 @@
 **Description**: Query 5 provides the user with **tournament_has_team** and **tournament** tables joined, the results grouped by tournament, and counts how many teams are associated with each tournament.
 
 **Managerial justification**: This can help tournament organizers and managers evaluate the size of each event. Furthermore it can provide insights on staffing, scheduling, facility usage, and better sresource allocation planning by showing which tournaments have the largest number of teams. 
+
 ### Query 6
 <img width="582" height="332" alt="Screenshot 2026-03-29 at 10 03 43 PM" src="https://github.com/user-attachments/assets/adc3fecc-c1f9-48e3-a85b-ad7491ec9710" />
 
@@ -137,9 +140,10 @@
 <img width="583" height="354" alt="Screenshot 2026-03-29 at 10 05 17 PM" src="https://github.com/user-attachments/assets/960f0b1d-058a-4163-87f9-c8f3a72c62a6" />
 
 **Question**:
-**Description**: Query 9 provides the user
-**Managerial justification**:
 
+**Description**: Query 9 provides the user
+
+**Managerial justification**:
 
 ### Query 10
 <img width="589" height="211" alt="Screenshot 2026-03-29 at 10 05 50 PM" src="https://github.com/user-attachments/assets/11e2d49a-82c5-48bc-a1a1-36459b0f2c0f" />
