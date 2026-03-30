@@ -67,51 +67,65 @@
 ### Query 1
 <img width="551" height="384" alt="image" src="https://github.com/user-attachments/assets/a3ff4aa3-7d3f-4bfb-929d-834f3ed17a5e" />
 
-Query 1 provides the user
+**Question**: What is the average height of players who play the setter position?
+**Description**: Query 1 provides the user with the average height of all players whose position matches the term "setter."
+**Managerial justification**: This can help coaches and team mangers understand typical physical profile of setters in the database. Furthermore, it can support recruiting, player development, and lineup insights for a position that often has specifc technical and physical expectations.
 
 ### Query 2
 <img width="576" height="346" alt="Screenshot 2026-03-29 at 10 01 34 PM" src="https://github.com/user-attachments/assets/b40fdcb2-5dfd-43b0-ae95-4f2738dc216d" />
 
-Query 2 provides the user
+**Question**: Which players belong to each team?
+**Description**: Query 2 provides the user with **player** and **team** tables joined to list each player alongside the team they are assigned to, then orders the results by team name alphabetically.
+**Mangerial justification**: This can be useful for roster verifcation. Managers can use it to confirm team assignments, review over roster compostion, and make sure players are assigned to correct team in the database before tournaments, reports, or operational decisions.
 
 ### Query 3
 <img width="576" height="347" alt="Screenshot 2026-03-29 at 10 02 04 PM" src="https://github.com/user-attachments/assets/d570f84f-057c-424c-a416-0934cf6dd79c" />
 
-Query 3 provides the user
-
+**Question**: Which players are taller than the average player in the league?
+**Description**: Query 3 provides the user with a comparison of each player's height to the overall average player height and returns only players whose height is above average.
+**Managerial justifcation**: This can be useful for avaluating role fit, lineup decisions for matches, and recruiting priorites for positions where height can play a competitive advantage.
 
 ### Query 4
 <img width="577" height="364" alt="Screenshot 2026-03-29 at 10 02 38 PM" src="https://github.com/user-attachments/assets/98881c9f-ffa0-46d4-8428-ab3cbf68f654" />
 
-Query 4 provides the user
+**Question**: Which players with more than five years of playing experience have recorded knee injuries?
+**Descirption**: Query 4 provides the user with **previousInjuries** and **player** tables joined and players whose **yearsPlayed** is greater than five and whose injury record shows "knee."
+**Mangerial justification**: This is relevant for injury monitoring and risk management. Managers and coaches can use this to identify experienced players who may need more medical attention, modified training procedures, and longer term recovery planning.
 
 ### Query 5
 <img width="561" height="347" alt="Screenshot 2026-03-29 at 10 03 09 PM" src="https://github.com/user-attachments/assets/cafecc28-7e0b-433a-a5bf-3aa682018da4" />
 
-Query 5 provides the user
-
+Question: How many teams were in each tournament?
+Description: Query 5 provides the user with **tournament_has_team** and **tournament** tables joined, the results grouped by tournament, and counts how many teams are associated with each tournament.
+Managerial justification: This can help tournament organizers and managers evaluate the size of each event. Furthermore it can provide insights on staffing, scheduling, facility usage, and better sresource allocation planning by showing which tournaments have the largest number of teams. 
 
 ### Query 6
 <img width="582" height="332" alt="Screenshot 2026-03-29 at 10 03 43 PM" src="https://github.com/user-attachments/assets/adc3fecc-c1f9-48e3-a85b-ad7491ec9710" />
 
-Query 6 provides the user
-
+**Question**: Which teams have more than four staff members
+**Description**: Query 6 provides the user with **staff** and **team** tables joined, the number of staff members linked to each team, and only teams whose staff count is greater than four.
+**Managerial justification**: This can help managers compare staffing levels across teams. It can show which teams have larger support structures, identify staffing imbalances, resoruce differences.
 
 ### Query 7
 <img width="576" height="339" alt="Screenshot 2026-03-29 at 10 04 14 PM" src="https://github.com/user-attachments/assets/0ae61a8f-f2b2-4cd5-bcd1-d2c15e9545da" />
 
-Query 7 provides the user
-
+**Question**: Which sponsors are assoicated with teams founded recently?
+**Description**: Query 7 provides the user with **sponsors** and **team** tables joined and sponsor and team information for teams whose founding year greater than the average founding year across all teams.
+**Managerial justification**: This can help reveal sponsorship patterns among recently established teams and support decisions related to partnership strategy, brand growth, engagement & outreach.
 
 ### Query 8
 <img width="581" height="358" alt="Screenshot 2026-03-29 at 10 04 48 PM" src="https://github.com/user-attachments/assets/fc891563-0dd4-416f-b48b-f4b9320b8ed5" />
 
-Query 8 provides the user
+**Question**: Which players have a runtime above the average runtime and a jump height above the average jump height?
+**Description**: Query 8 provides the user with **player**, **exerciseEvaluation**, and **team** tables joined, then filtered for players whose recorded runtime and jump height are both above the overall averages in the exercise evaluation data respectively. 
+**Managerial justification**: This can help support performance analysis and help staff compare athletes across teams when reviewing physical evaluation data. Furthermore mangers can identify players who stands out in multiple categories at the same time
 
 ### Query 9
 <img width="583" height="354" alt="Screenshot 2026-03-29 at 10 05 17 PM" src="https://github.com/user-attachments/assets/960f0b1d-058a-4163-87f9-c8f3a72c62a6" />
 
-Query 9 provides the user
+**Question**:
+**Description**: Query 9 provides the user
+**Managerial justification**:
 
 
 ### Query 10
