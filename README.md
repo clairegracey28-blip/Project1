@@ -128,7 +128,7 @@
 **Managerial justification**: This can help reveal sponsorship patterns among recently established teams and support decisions related to partnership strategy, brand growth, engagement & outreach.
 
 ### Query 8
-<img width="581" height="358" alt="Screenshot 2026-03-29 at 10 04 48 PM" src="https://github.com/user-attachments/assets/fc891563-0dd4-416f-b48b-f4b9320b8ed5" />
+<img width="1191" height="701" alt="Screenshot 2026-03-30 at 5 19 25 PM" src="https://github.com/user-attachments/assets/121a2ff2-012c-44f9-9890-7207599b8c40" />
 
 **Question**: Which players have a runtime above the average runtime and a jump height above the average jump height?
 
