@@ -31,4 +31,104 @@
 
   In addition to the regular season, there are tournaments throughout the season. Each team will play in many tournaments throughout the season, and each tournament consists of many teams. 
 
-<img width="589" height="745" alt="Screenshot 2026-03-26 at 8 24 23 AM" src="https://github.com/user-attachments/assets/bffdb22b-9594-492e-be86-7f5285550e4d" />
+<img width="576" height="732" alt="Screenshot 2026-03-29 at 9 58 50 PM" src="https://github.com/user-attachments/assets/dfbdeeee-23e1-4f61-a8c5-ea48d20082c7" />
+
+
+## Data Dictionary
+<img width="650" height="328" alt="Screenshot 2026-03-29 at 4 29 38 PM" src="https://github.com/user-attachments/assets/d160e310-abe0-42e7-b6e5-6a6c9019bf70" />
+
+<img width="640" height="416" alt="Screenshot 2026-03-29 at 4 30 45 PM" src="https://github.com/user-attachments/assets/f8f18307-e54e-44d1-a67f-59aa04968589" />
+
+<img width="647" height="565" alt="Screenshot 2026-03-29 at 4 34 24 PM" src="https://github.com/user-attachments/assets/60c286b3-af22-444a-a2fa-4640a476b8b0" />
+
+<img width="645" height="252" alt="Screenshot 2026-03-29 at 4 35 33 PM" src="https://github.com/user-attachments/assets/97fa5acc-e078-425d-ab21-1f99645e0e8d" />
+
+<img width="570" height="619" alt="Screenshot 2026-03-29 at 4 37 27 PM" src="https://github.com/user-attachments/assets/ffa91775-78ac-4758-86d1-feeab96e1a1c" />
+
+<img width="579" height="279" alt="Screenshot 2026-03-29 at 4 38 46 PM" src="https://github.com/user-attachments/assets/83101376-9140-4742-b042-0a61115fb2b6" />
+
+<img width="577" height="184" alt="Screenshot 2026-03-29 at 4 39 33 PM" src="https://github.com/user-attachments/assets/01a4aba4-f9b2-4300-b583-596e1058a064" />
+
+<img width="582" height="232" alt="Screenshot 2026-03-29 at 4 40 16 PM" src="https://github.com/user-attachments/assets/b0b42daa-87d4-4b98-abe9-cfcffe95c035" />
+
+<img width="579" height="176" alt="Screenshot 2026-03-29 at 4 41 03 PM" src="https://github.com/user-attachments/assets/2af15d2d-3925-4a65-be83-49c53c6b6071" />
+
+<img width="573" height="343" alt="Screenshot 2026-03-29 at 4 41 34 PM" src="https://github.com/user-attachments/assets/4a295e22-2bbe-489a-83cd-c2aff2481755" />
+
+<img width="586" height="537" alt="Screenshot 2026-03-29 at 4 42 32 PM" src="https://github.com/user-attachments/assets/b5cd5644-81dc-42c7-9fdf-f6bf9e327223" />
+
+<img width="576" height="349" alt="Screenshot 2026-03-29 at 4 43 39 PM" src="https://github.com/user-attachments/assets/eeb7b286-b6cb-4904-abfe-cf1d55964d8b" />
+
+<img width="586" height="520" alt="Screenshot 2026-03-29 at 4 45 06 PM" src="https://github.com/user-attachments/assets/bf793499-fb0b-4238-b1ac-143d324e63b2" />
+
+## Queries
+<img width="563" height="271" alt="Screenshot 2026-03-29 at 9 57 11 PM" src="https://github.com/user-attachments/assets/d4197e84-5b21-401e-b6f6-0160a568fcec" />
+
+### Query 1
+<img width="551" height="384" alt="image" src="https://github.com/user-attachments/assets/a3ff4aa3-7d3f-4bfb-929d-834f3ed17a5e" />
+
+Query 1 provides the user
+
+### Query 2
+<img width="576" height="346" alt="Screenshot 2026-03-29 at 10 01 34 PM" src="https://github.com/user-attachments/assets/b40fdcb2-5dfd-43b0-ae95-4f2738dc216d" />
+
+Query 2 provides the user
+
+### Query 3
+<img width="576" height="347" alt="Screenshot 2026-03-29 at 10 02 04 PM" src="https://github.com/user-attachments/assets/d570f84f-057c-424c-a416-0934cf6dd79c" />
+
+Query 3 provides the user
+
+
+### Query 4
+<img width="577" height="364" alt="Screenshot 2026-03-29 at 10 02 38 PM" src="https://github.com/user-attachments/assets/98881c9f-ffa0-46d4-8428-ab3cbf68f654" />
+
+Query 4 provides the user
+
+### Query 5
+<img width="561" height="347" alt="Screenshot 2026-03-29 at 10 03 09 PM" src="https://github.com/user-attachments/assets/cafecc28-7e0b-433a-a5bf-3aa682018da4" />
+
+Query 5 provides the user
+
+
+### Query 6
+<img width="582" height="332" alt="Screenshot 2026-03-29 at 10 03 43 PM" src="https://github.com/user-attachments/assets/adc3fecc-c1f9-48e3-a85b-ad7491ec9710" />
+
+Query 6 provides the user
+
+
+### Query 7
+<img width="576" height="339" alt="Screenshot 2026-03-29 at 10 04 14 PM" src="https://github.com/user-attachments/assets/0ae61a8f-f2b2-4cd5-bcd1-d2c15e9545da" />
+
+Query 7 provides the user
+
+
+### Query 8
+<img width="581" height="358" alt="Screenshot 2026-03-29 at 10 04 48 PM" src="https://github.com/user-attachments/assets/fc891563-0dd4-416f-b48b-f4b9320b8ed5" />
+
+Query 8 provides the user
+
+### Query 9
+<img width="583" height="354" alt="Screenshot 2026-03-29 at 10 05 17 PM" src="https://github.com/user-attachments/assets/960f0b1d-058a-4163-87f9-c8f3a72c62a6" />
+
+Query 9 provides the user
+
+
+### Query 10
+<img width="589" height="211" alt="Screenshot 2026-03-29 at 10 05 50 PM" src="https://github.com/user-attachments/assets/11e2d49a-82c5-48bc-a1a1-36459b0f2c0f" />
+
+Query 10 provides the user
+
+
+
+
+
+
+
+
+
+
+
+
+
+
