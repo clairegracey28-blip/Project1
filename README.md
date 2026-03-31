@@ -12,7 +12,7 @@
 ## Problem Description:   
   Problem: Create and build a relational database of a mock 'Major League Volleyball' database to demonstrate relationships between the volleyball league of teams, coaches, tournaments, players, etc. The central entity is the team entity of the volleyball league, displaying multiple relationships to find team specifics, such as name and location. Overall, the goal is to accurately model these relationships by generating sample data and populating each entity and its attributes with relevant sample data from Mockaroo. Furthermore, we aim to enable simple and complex querying of big sample data for team analysts, coaches, administrators, spectators, and other relevant stakeholders. This can show valuable operational and performance insights about teams or the league as a whole.
 
-## Data Model:   **NOT FINISHED**
+## Data Model:   
   Data Model Description:  
   
   Our data model is primarily based on a hypothetical volleyball league, called the MLV (Major League Volleyball). The data model is centered around the **team** entity. The team entity represents the numerous teams within the MLV with attributes such as country and year founded. The team entity has many branches stemming from it, with the first being the **player** entity. Each team has many players, signifed by the one-to-many relationship between the team entity and the player entity. Additionally, the player entity includes attributes such as the player's name, jersey number, total points scored, position played (assume each player can only play one position), total number of games played, total number of years played, and the player height.
@@ -29,7 +29,7 @@
 
   Within each match, multiple **sets** are played. This means that a one-to-many relationship exists between matches and match_set, having match_set also include attributes like the set number (1-3 since matches can only have up to 3 sets). 
 
-  Throughout the season, teams take part in **tournaments**. Each tournament involves many teams and each team can play in many tournaments, meaning a many-to-many relationship exists between the two. In this many-to-many relationship, the associative entity **tournament_has_team** exists and includes the placement attribute to allow each team to have a placement for each tournament they play in. 
+  Throughout the season, teams take part in **tournaments**. Each tournament involves many teams and each team can play in many tournaments, meaning a many-to-many relationship exists between the two. In this many-to-many relationship, the associative entity **tournament_has_team** exists and includes the placement attribute to allow each team to have a placement for each tournament they play in. Additionally, the team entity includes attributes such as the tournament name, date, the ID number of the gym used, and the location of the tournament. 
 
   Finally, each team has **materials** that they own, and these materials can only belong to one team, creating a one-to-many relationship between team and materials. Additionally, the materials entity includes attributes such as the name of the piece of equipment and its brand. 
 
