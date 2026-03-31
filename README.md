@@ -114,11 +114,11 @@
 ### Query 6
 <img width="582" height="332" alt="Screenshot 2026-03-29 at 10 03 43 PM" src="https://github.com/user-attachments/assets/adc3fecc-c1f9-48e3-a85b-ad7491ec9710" />
 
-**Question**: Which teams have more than four staff members
+**Question**: Which teams have more than four staff members?
 
 **Description**: Query 6 provides the user with **staff** and **team** tables joined, the number of staff members linked to each team, and only teams whose staff count is greater than four.
 
-**Managerial Justification**: This can help managers compare staffing levels across teams. It can show which teams have larger support structures, identify staffing imbalances, resoruce differences.
+**Managerial Justification**: This can help managers compare staffing levels across teams. It can show which teams have larger support structures, identify staffing imbalances and resoruce differences.
 
 ### Query 7
 <img width="576" height="339" alt="Screenshot 2026-03-29 at 10 04 14 PM" src="https://github.com/user-attachments/assets/0ae61a8f-f2b2-4cd5-bcd1-d2c15e9545da" />
