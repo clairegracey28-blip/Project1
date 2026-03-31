@@ -145,7 +145,7 @@
 
 **Description**: Query 9 provides the user with **player**, **team**, and **coach** tables joined (with having to join **roster** as well but no information pulled), then filtered for the player name "Johnson" and team name "Lions".
 
-**Managerial Justification**: This specific query can help coachs/staff/spectators search for players with a specific name (doesn't have to necessarily be "Johnson") who player for a specific team (doesn't have to necessarily be "Lions") and retrieve relevant stats like the player's height, the country that the team is located in, and the name of the coach of the specific team. 
+**Managerial Justification**: This specific query can help coachs/staff/spectators search for players with a specific name (doesn't have to necessarily be "Johnson") who play for a specific team (doesn't have to necessarily be "Lions") and retrieve relevant stats like the player's height, the country that the team is located in, and the name of the coach of the specific team. 
 
 ### Query 10
 <img width="589" height="211" alt="Screenshot 2026-03-29 at 10 05 50 PM" src="https://github.com/user-attachments/assets/11e2d49a-82c5-48bc-a1a1-36459b0f2c0f" />
