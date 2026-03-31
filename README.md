@@ -85,7 +85,7 @@
 **Mangerial Justification**: This can be useful for roster verifcation. Managers can use it to confirm team assignments, review over roster compostion, and make sure players are assigned to correct team in the database before tournaments, reports, or operational decisions.
 
 ### Query 3
-<img width="576" height="347" alt="Screenshot 2026-03-29 at 10 02 04 PM" src="https://github.com/user-attachments/assets/d570f84f-057c-424c-a416-0934cf6dd79c" />
+<img width="1197" height="733" alt="Screenshot 2026-03-31 at 9 10 11 AM" src="https://github.com/user-attachments/assets/8816e190-8008-4f3a-9d33-2bf6e91b1679" />
 
 **Question**: Which players are taller than the average player in the league?
 
