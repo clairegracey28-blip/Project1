@@ -132,18 +132,18 @@
 
 **Question**: Which players have a runtime above the average runtime and a jump height above the average jump height?
 
-**Description**: Query 8 provides the user with **player**, **exerciseEvaluation**, and **team** tables joined, then filtered for players whose recorded runtime and jump height are both above the overall averages in the exercise evaluation data respectively. 
+**Description**: Query 8 provides the user with **player**, **exerciseEvaluation**, and **team** tables joined, then filtered for players whose recorded runtime is below the overall average and jump height is above the overall average in the exercise evaluation data respectively. 
 
 **Managerial justification**: This can help support performance analysis and help staff compare athletes across teams when reviewing physical evaluation data. Furthermore mangers can identify players who stands out in multiple categories at the same time
 
 ### Query 9
 <img width="583" height="354" alt="Screenshot 2026-03-29 at 10 05 17 PM" src="https://github.com/user-attachments/assets/960f0b1d-058a-4163-87f9-c8f3a72c62a6" />
 
-**Question**:
+**Question**: Whick players have the last name "Johnson" and play on a team with name "Lions"?
 
-**Description**: Query 9 provides the user
+**Description**: Query 9 provides the user with **playerId**, **playerName**, **playerHeight**, **teamName**, **country**, **coachName** tables joined, then filtered for the player name "Johnson" and team name "Lions".
 
-**Managerial justification**:
+**Managerial justification**: This specific query can help coachs/staff/spectators search for players with a specific name (doesn't have to necessarily be "Johnson") who player for a specific team (doesn't have to necessarily be "Lions") and retrieve relevant stats like the player's height, the country that the team is located in, and the name of the coach of the specific team. 
 
 ### Query 10
 <img width="589" height="211" alt="Screenshot 2026-03-29 at 10 05 50 PM" src="https://github.com/user-attachments/assets/11e2d49a-82c5-48bc-a1a1-36459b0f2c0f" />
