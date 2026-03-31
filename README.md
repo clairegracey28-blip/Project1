@@ -78,7 +78,6 @@
 ### Query 2
 <img width="1290" height="596" alt="Screenshot 2026-03-30 at 11 06 42 PM" src="https://github.com/user-attachments/assets/744938bd-1420-416a-98ab-6f8b79c23e76" />
 
-
 **Question**: Which players belong to each team?
 
 **Description**: Query 2 provides the user with **player** and **team** tables joined to list each player alongside the team they are assigned to, then orders the results by team name alphabetically.
