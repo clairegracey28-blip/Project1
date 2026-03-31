@@ -92,7 +92,7 @@
 
 **Description**: Query 3 provides the user with **team** and **player** table joined, players grouped by team, and the total number of pointes scored by summing **pointsScored** values for all players in each team. These are ordered by highest to lowest total points
 
-**Managerial Justification**: This can be useful for comparison on the offensive production of each team. By showing which teams are performing the best overall in terms of points, can help identify stronger rosters, evaluate future potential, recruting decisions, and competitive analysis.
+**Managerial Justification**: This can be useful for comparison on the offensive production of each team. By showing which teams are performing the best overall in terms of points, it can help identify stronger rosters, evaluate future potential, recruting decisions, and competitive analysis.
 
 ### Query 4
 <img width="577" height="364" alt="Screenshot 2026-03-29 at 10 02 38 PM" src="https://github.com/user-attachments/assets/98881c9f-ffa0-46d4-8428-ab3cbf68f654" />
