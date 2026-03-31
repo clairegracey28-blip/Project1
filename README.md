@@ -61,7 +61,7 @@
 
 <img width="576" height="349" alt="Screenshot 2026-03-29 at 4 43 39 PM" src="https://github.com/user-attachments/assets/eeb7b286-b6cb-4904-abfe-cf1d55964d8b" />
 
-<img width="586" height="520" alt="Screenshot 2026-03-29 at 4 45 06 PM" src="https://github.com/user-attachments/assets/bf793499-fb0b-4238-b1ac-143d324e63b2" />
+<img width="576" height="508" alt="Screenshot 2026-03-30 at 10 17 55 PM" src="https://github.com/user-attachments/assets/71eb7eb6-9639-4ce2-ba4d-4c76c8d9ffa4" />
 
 ## Queries
 <img width="563" height="271" alt="Screenshot 2026-03-29 at 9 57 11 PM" src="https://github.com/user-attachments/assets/d4197e84-5b21-401e-b6f6-0160a568fcec" />
