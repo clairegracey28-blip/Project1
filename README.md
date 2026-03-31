@@ -76,7 +76,8 @@
 **Managerial Justification**: This can help coaches and team mangers understand typical physical profile of setters in the database. Furthermore, it can support recruiting, player development, and lineup insights for a position that often has specifc technical and physical expectations.
 
 ### Query 2
-<img width="576" height="346" alt="Screenshot 2026-03-29 at 10 01 34 PM" src="https://github.com/user-attachments/assets/b40fdcb2-5dfd-43b0-ae95-4f2738dc216d" />
+<img width="1290" height="596" alt="Screenshot 2026-03-30 at 11 06 42 PM" src="https://github.com/user-attachments/assets/744938bd-1420-416a-98ab-6f8b79c23e76" />
+
 
 **Question**: Which players belong to each team?
 
