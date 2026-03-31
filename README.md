@@ -155,7 +155,11 @@
 **Description**: Query 10 provides the user with **matches**, **tournament**, and **team** (twice to account for two teams) tables, then filtered with a score difference larger than 20, tournament names that include "Cup", and match dates after 2023.  
 
 **Manageerial Justification**: This query can allow coaches or spectators to view matches and their associated qualities (teams involved, date of the match, and the tournament name) that took place with a large score difference (greater than 20), were a part of tournaments with the name "Cup" in them, and took place after 2023. 
- 
+
+
+## Database Information
+Name of Database: al_Group_21479_G6
+Each query previously stated is stored in the database with stored procedures which can be called in the format CALL TP_Q1();
 
 
 
