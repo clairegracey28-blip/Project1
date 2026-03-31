@@ -88,11 +88,11 @@
 ### Query 3
 <img width="1197" height="733" alt="Screenshot 2026-03-31 at 9 10 11 AM" src="https://github.com/user-attachments/assets/8816e190-8008-4f3a-9d33-2bf6e91b1679" />
 
-**Question**: Which players are taller than the average player in the league?
+**Question**: WHich teams have scored the most total points based on comined career points of their players?
 
-**Description**: Query 3 provides the user with a comparison of each player's height to the overall average player height and returns only players whose height is above average.
+**Description**: Query 3 provides the user with **team** and **player** table joined, players grouped by team, and the total number of pointes scored by summing **pointsScored** values for all players in each team. These are ordered by highest to lowest total points
 
-**Managerial Justification**: This can be useful for avaluating role fit, lineup decisions for matches, and recruiting priorites for positions where height can play a competitive advantage.
+**Managerial Justification**: This can be useful for comparison on the offensive production of each team. By showing which teams are performing the best overall in terms of points, can help identify stronger rosters, evaluate future potential, recruting decisions, and competitive analysis.
 
 ### Query 4
 <img width="577" height="364" alt="Screenshot 2026-03-29 at 10 02 38 PM" src="https://github.com/user-attachments/assets/98881c9f-ffa0-46d4-8428-ab3cbf68f654" />
