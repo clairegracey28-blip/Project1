@@ -159,7 +159,7 @@
 
 ## Database Information
 Name of Database: al_Group_21479_G6
-Each query previously stated is stored in the database with stored procedures which can be called in the format CALL TP_Q1();
+Each query previously stated is stored in the database with stored procedures which can be called in the format CALL TP26_Q1();
 
 
 
