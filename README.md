@@ -71,7 +71,7 @@
 
 **Description**: Query 1 provides the user with the average height of all players whose position matches the term "setter."
 
-**Managerial justification**: This can help coaches and team mangers understand typical physical profile of setters in the database. Furthermore, it can support recruiting, player development, and lineup insights for a position that often has specifc technical and physical expectations.
+**Managerial Justification**: This can help coaches and team mangers understand typical physical profile of setters in the database. Furthermore, it can support recruiting, player development, and lineup insights for a position that often has specifc technical and physical expectations.
 
 ### Query 2
 <img width="576" height="346" alt="Screenshot 2026-03-29 at 10 01 34 PM" src="https://github.com/user-attachments/assets/b40fdcb2-5dfd-43b0-ae95-4f2738dc216d" />
@@ -80,7 +80,7 @@
 
 **Description**: Query 2 provides the user with **player** and **team** tables joined to list each player alongside the team they are assigned to, then orders the results by team name alphabetically.
 
-**Mangerial justification**: This can be useful for roster verifcation. Managers can use it to confirm team assignments, review over roster compostion, and make sure players are assigned to correct team in the database before tournaments, reports, or operational decisions.
+**Mangerial Justification**: This can be useful for roster verifcation. Managers can use it to confirm team assignments, review over roster compostion, and make sure players are assigned to correct team in the database before tournaments, reports, or operational decisions.
 
 ### Query 3
 <img width="576" height="347" alt="Screenshot 2026-03-29 at 10 02 04 PM" src="https://github.com/user-attachments/assets/d570f84f-057c-424c-a416-0934cf6dd79c" />
@@ -89,7 +89,7 @@
 
 **Description**: Query 3 provides the user with a comparison of each player's height to the overall average player height and returns only players whose height is above average.
 
-**Managerial justifcation**: This can be useful for avaluating role fit, lineup decisions for matches, and recruiting priorites for positions where height can play a competitive advantage.
+**Managerial Justification**: This can be useful for avaluating role fit, lineup decisions for matches, and recruiting priorites for positions where height can play a competitive advantage.
 
 ### Query 4
 <img width="577" height="364" alt="Screenshot 2026-03-29 at 10 02 38 PM" src="https://github.com/user-attachments/assets/98881c9f-ffa0-46d4-8428-ab3cbf68f654" />
@@ -98,7 +98,7 @@
 
 **Descirption**: Query 4 provides the user with **previousInjuries** and **player** tables joined and players whose **yearsPlayed** is greater than five and whose injury record shows "knee."
 
-**Mangerial justification**: This is relevant for injury monitoring and risk management. Managers and coaches can use this to identify experienced players who may need more medical attention, modified training procedures, and longer term recovery planning.
+**Mangerial Justification**: This is relevant for injury monitoring and risk management. Managers and coaches can use this to identify experienced players who may need more medical attention, modified training procedures, and longer term recovery planning.
 
 ### Query 5
 <img width="561" height="347" alt="Screenshot 2026-03-29 at 10 03 09 PM" src="https://github.com/user-attachments/assets/cafecc28-7e0b-433a-a5bf-3aa682018da4" />
@@ -107,7 +107,7 @@
 
 **Description**: Query 5 provides the user with **tournament_has_team** and **tournament** tables joined, the results grouped by tournament, and counts how many teams are associated with each tournament.
 
-**Managerial justification**: This can help tournament organizers and managers evaluate the size of each event. Furthermore it can provide insights on staffing, scheduling, facility usage, and better sresource allocation planning by showing which tournaments have the largest number of teams. 
+**Managerial Justification**: This can help tournament organizers and managers evaluate the size of each event. Furthermore it can provide insights on staffing, scheduling, facility usage, and better sresource allocation planning by showing which tournaments have the largest number of teams. 
 
 ### Query 6
 <img width="582" height="332" alt="Screenshot 2026-03-29 at 10 03 43 PM" src="https://github.com/user-attachments/assets/adc3fecc-c1f9-48e3-a85b-ad7491ec9710" />
@@ -116,7 +116,7 @@
 
 **Description**: Query 6 provides the user with **staff** and **team** tables joined, the number of staff members linked to each team, and only teams whose staff count is greater than four.
 
-**Managerial justification**: This can help managers compare staffing levels across teams. It can show which teams have larger support structures, identify staffing imbalances, resoruce differences.
+**Managerial Justification**: This can help managers compare staffing levels across teams. It can show which teams have larger support structures, identify staffing imbalances, resoruce differences.
 
 ### Query 7
 <img width="576" height="339" alt="Screenshot 2026-03-29 at 10 04 14 PM" src="https://github.com/user-attachments/assets/0ae61a8f-f2b2-4cd5-bcd1-d2c15e9545da" />
@@ -125,30 +125,35 @@
 
 **Description**: Query 7 provides the user with **sponsors** and **team** tables joined and sponsor and team information for teams whose founding year greater than the average founding year across all teams.
 
-**Managerial justification**: This can help reveal sponsorship patterns among recently established teams and support decisions related to partnership strategy, brand growth, engagement & outreach.
+**Managerial Justification**: This can help reveal sponsorship patterns among recently established teams and support decisions related to partnership strategy, brand growth, engagement & outreach.
 
 ### Query 8
 <img width="1191" height="701" alt="Screenshot 2026-03-30 at 5 19 25 PM" src="https://github.com/user-attachments/assets/121a2ff2-012c-44f9-9890-7207599b8c40" />
 
-**Question**: Which players have a runtime above the average runtime and a jump height above the average jump height?
+**Question**: Which players have a runtime below the average runtime and a jump height above the average jump height?
 
 **Description**: Query 8 provides the user with **player**, **exerciseEvaluation**, and **team** tables joined, then filtered for players whose recorded runtime is below the overall average and jump height is above the overall average in the exercise evaluation data respectively. 
 
-**Managerial justification**: This can help support performance analysis and help staff compare athletes across teams when reviewing physical evaluation data. Furthermore mangers can identify players who stands out in multiple categories at the same time
+**Managerial Justification**: This can help support performance analysis and help staff compare athletes across teams when reviewing physical evaluation data. Furthermore mangers can identify players who stands out in multiple categories at the same time
 
 ### Query 9
 <img width="583" height="354" alt="Screenshot 2026-03-29 at 10 05 17 PM" src="https://github.com/user-attachments/assets/960f0b1d-058a-4163-87f9-c8f3a72c62a6" />
 
 **Question**: Whick players have the last name "Johnson" and play on a team with name "Lions"?
 
-**Description**: Query 9 provides the user with **playerId**, **playerName**, **playerHeight**, **teamName**, **country**, **coachName** tables joined, then filtered for the player name "Johnson" and team name "Lions".
+**Description**: Query 9 provides the user with **player**, **team**, and **coach** tables joined (with having to join **roster** as well but no information pulled), then filtered for the player name "Johnson" and team name "Lions".
 
-**Managerial justification**: This specific query can help coachs/staff/spectators search for players with a specific name (doesn't have to necessarily be "Johnson") who player for a specific team (doesn't have to necessarily be "Lions") and retrieve relevant stats like the player's height, the country that the team is located in, and the name of the coach of the specific team. 
+**Managerial Justification**: This specific query can help coachs/staff/spectators search for players with a specific name (doesn't have to necessarily be "Johnson") who player for a specific team (doesn't have to necessarily be "Lions") and retrieve relevant stats like the player's height, the country that the team is located in, and the name of the coach of the specific team. 
 
 ### Query 10
 <img width="589" height="211" alt="Screenshot 2026-03-29 at 10 05 50 PM" src="https://github.com/user-attachments/assets/11e2d49a-82c5-48bc-a1a1-36459b0f2c0f" />
 
-Query 10 provides the user
+**Question**: What was the relevant qualities (matchID, score difference, team 1 name & ID, team 2 name & ID, and tournament name) of the matches that took place after 2023?
+
+**Description**: Query 10 provides the user with **matches**, **tournament**, and **team** (twice to account for two teams) tables, then filtered with a score difference larger than 20, tournament names that include "Cup", and match dates after 2023.  
+
+**Manageerial Justification**: This query can allow coaches or spectators to view matches and their associated qualities (teams involved, date of the match, and the tournament name) that took place with a large score difference (greater than 20), were a part of tournaments with the name "Cup" in them, and took place after 2023. 
+ 
 
 
 
