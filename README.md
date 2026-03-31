@@ -10,26 +10,28 @@
   4. Andy Smith
 
 ## Problem Description:   
-  Problem: Create and build a relational database of a mock 'Major League Volleyball' database to demonstrate relationships between the volleyball league of teams, coaches, tournaments, players, etc. The central entity is the team entity of the volleyball league, displaying multiple relationships to find team specifics, such as name and location. Overall, the goal is to accurately model these relationships by generating sample data and populating each entity and its attributes with relevant sample data from Mockaroo. Furthermore, we aim to enable simple and complex querying of big sample data for team analysts, coaches, administrators, and other relevant stakeholders. This can show valuable operational and performance insights about teams or the league as a whole.
+  Problem: Create and build a relational database of a mock 'Major League Volleyball' database to demonstrate relationships between the volleyball league of teams, coaches, tournaments, players, etc. The central entity is the team entity of the volleyball league, displaying multiple relationships to find team specifics, such as name and location. Overall, the goal is to accurately model these relationships by generating sample data and populating each entity and its attributes with relevant sample data from Mockaroo. Furthermore, we aim to enable simple and complex querying of big sample data for team analysts, coaches, administrators, spectators, and other relevant stakeholders. This can show valuable operational and performance insights about teams or the league as a whole.
 
 ## Data Model:   **NOT FINISHED**
   Data Model Description:  
   
-  Our data model is primarily based on a hypothetical volleyball league, called the MLV (Major League Volleyball). The data model is centered around the team entity. The team entity represents the numerous teams within the MLV. The team entity has many branches stemming from it, with the first being the player entity. Each team has many players, signifed by the one-to-many relationship between the team entity and the player entity.
+  Our data model is primarily based on a hypothetical volleyball league, called the MLV (Major League Volleyball). The data model is centered around the **team** entity. The team entity represents the numerous teams within the MLV with attributes such as country and year founded. The team entity has many branches stemming from it, with the first being the **player** entity. Each team has many players, signifed by the one-to-many relationship between the team entity and the player entity. Additionally, the player entity includes attributes such as the player's name, jersey number, total points scored, position played (assume each player can only play one position), total number of games played, total number of years played, and the player height.
 
-  Each player can have none, one, or multiple injuries, thus the one-to-many relationship between the player entity and the previousInjuries entity. Each player can also have multiple exercise evaluations, where they are evaluated to determine athletic ability, therefore the one-to-many relationship between player and exerciseEvaluation. 
+  Each player can have none, one, or multiple injuries, thus the one-to-many relationship between the player entity and the **previousInjuries** entity. The body part injured and date of injury are also included. Each player can have zero, one, or many exercise evaluations, which is why a one-to-many relationship exists between player and **exerciseEvaluation**. Players are evaluated to determine athletic ability through a run and jump test with results for both recorded. 
 
-  Going back to the team entity, a team typicall has one roster, and a specific roster is only associated with one team, so a one-to-one relationship exists between the team entity and the roster entity. Further, each roster belongs to one coach, and one coach belongs to each roster, thus another one-to-one relationship is formed, this time between the roster entity and the coach entity. As we know, a coach coaches many players, and a roster contains multiple players as well, so a one-to-many relationship exists between both the roster entity and player entity, as well as the coach entity and the player entity.
+  Going back to the team entity, a team typically has one **roster**, and a specific roster is only associated with one team, so a one-to-one relationship exists between the team entity and the roster entity. Further, each roster belongs to one **coach**, and one coach belongs to each roster, thus another one-to-one relationship is formed this time between the roster entity and the coach entity. The coach entity includes the coach's first and last name in one entity. As we know, a coach coaches many players, and a roster contains multiple players as well, so a one-to-many relationship exists between both the roster entity and player entity, as well as the coach entity and the player entity.
 
-  On any given team, there are multiple staff members, but staff members only belong on one specific team, so a one-to-many relationship exists from the team entity to the staff entity.
+  There are many **staff** members associated with any one team, but staff members only belong on one specific team, so a one-to-many relationship exists from the team entity to the staff entity. As a part of the staff entity, the staff member's name and position title are included.
 
-  For a team to succeed financially, they will typically need a sponsor. In our example, each team will only have one sponsor, and each sponsor will only sponsor one team. This creates a one-to-one relatioship between the team entity and the sponsors entity.
+  For a team to succeed financially, they will typically need a **sponsor**. In our example, each team will only have one sponsor, and each sponsor will only sponsor one team. This creates a one-to-one relatioship between the team entity and the sponsors entity.
 
-  During any given match, two teams play each other. Each team will play in many matches throughout the season, but each match will be played between two specific teams. In order to get the two unique teamID's, we have established two unique one-to-many relationships stemming from the team entity to the match entity. This shows the specific two teams that played in any given match, at any point in the season.
+  During any given **match**, two teams play each other. Each team will play in many matches throughout the season, but each match will be played between two specific teams. In order to get the two unique teamID's, we have established two unique one-to-many relationships stemming from the team entity to the match entity. This shows the specific two teams that played in any given match, at any point in the season. Additionally, the matches entity includes the score difference that exists between the two teams as well as the date of the match. 
 
-  Each match is won when either team wins multiple sets. That being said, each set will only be won in one specific match. This creates a one-to-many relationship between the match entity and the set entity.
+  Within each match, multiple **sets** are played. This means that a one-to-many relationship exists between matches and match_set, having match_set also include attributes like the set number (1-3 since matches can only have up to 3 sets). 
 
-  In addition to the regular season, there are tournaments throughout the season. Each team will play in many tournaments throughout the season, and each tournament consists of many teams. 
+  Throughout the season, teams take part in **tournaments**. Each tournament involves many teams and each team can play in many tournaments, meaning a many-to-many relationship exists between the two. In this many-to-many relationship, the associative entity **tournament_has_team** exists and includes the placement attribute to allow each team to have a placement for each tournament they play in. 
+
+  Finally, each team has **materials** that they own, and these materials can only belong to one team, creating a one-to-many relationship between team and materials. Additionally, the materials entity includes attributes such as the name of the piece of equipment and its brand. 
 
 <img width="576" height="732" alt="Screenshot 2026-03-29 at 9 58 50 PM" src="https://github.com/user-attachments/assets/dfbdeeee-23e1-4f61-a8c5-ea48d20082c7" />
 
@@ -37,7 +39,7 @@
 ## Data Dictionary
 <img width="650" height="328" alt="Screenshot 2026-03-29 at 4 29 38 PM" src="https://github.com/user-attachments/assets/d160e310-abe0-42e7-b6e5-6a6c9019bf70" />
 
-<img width="640" height="416" alt="Screenshot 2026-03-29 at 4 30 45 PM" src="https://github.com/user-attachments/assets/f8f18307-e54e-44d1-a67f-59aa04968589" />
+<img width="578" height="352" alt="Screenshot 2026-03-30 at 9 20 21 PM" src="https://github.com/user-attachments/assets/64905766-73c1-407e-8ace-03f590a10c66" />
 
 <img width="647" height="565" alt="Screenshot 2026-03-29 at 4 34 24 PM" src="https://github.com/user-attachments/assets/60c286b3-af22-444a-a2fa-4640a476b8b0" />
 
