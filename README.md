@@ -6,7 +6,7 @@
 ## Team Members:
   1. Tobi Alaba [@tobialaba](https://github.com/tobialaba)
   2. Claire Gracey [@clairegracey28-blip](https://github.com/clairegracey28-blip)
-  3. Naysa McFarlane
+  3. Naysa McFarlane [@ndm53209] (https://github.com/ndm53209)
   4. Andy Smith [@Anderson-MIS](https://github.com/Anderson-MIS)
 
 ## Problem Description:   
