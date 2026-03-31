@@ -141,7 +141,7 @@
 ### Query 9
 <img width="583" height="354" alt="Screenshot 2026-03-29 at 10 05 17 PM" src="https://github.com/user-attachments/assets/960f0b1d-058a-4163-87f9-c8f3a72c62a6" />
 
-**Question**: Whick players have the last name "Johnson" and play on a team with name "Lions"?
+**Question**: Which players have the last name "Johnson" and play on a team with name "Lions"?
 
 **Description**: Query 9 provides the user with **player**, **team**, and **coach** tables joined (with having to join **roster** as well but no information pulled), then filtered for the player name "Johnson" and team name "Lions".
 
