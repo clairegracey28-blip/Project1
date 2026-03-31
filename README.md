@@ -88,7 +88,7 @@
 ### Query 3
 <img width="1197" height="733" alt="Screenshot 2026-03-31 at 9 10 11 AM" src="https://github.com/user-attachments/assets/8816e190-8008-4f3a-9d33-2bf6e91b1679" />
 
-**Question**: WHich teams have scored the most total points based on comined career points of their players?
+**Question**: Which teams have scored the most total points based on comined career points of their players?
 
 **Description**: Query 3 provides the user with **team** and **player** table joined, players grouped by team, and the total number of pointes scored by summing **pointsScored** values for all players in each team. These are ordered by highest to lowest total points
 
