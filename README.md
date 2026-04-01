@@ -49,7 +49,7 @@
 
 <img width="572" height="619" alt="Screenshot 2026-03-30 at 9 50 16 PM" src="https://github.com/user-attachments/assets/3db8647f-9de9-4972-a402-49ec0472515f" />
 
-<img width="579" height="279" alt="Screenshot 2026-03-29 at 4 38 46 PM" src="https://github.com/user-attachments/assets/83101376-9140-4742-b042-0a61115fb2b6" />
+<img width="574" height="196" alt="Screenshot 2026-03-31 at 9 13 57 PM" src="https://github.com/user-attachments/assets/09b7463f-6dea-42a1-877e-16c67a469a47" />
 
 <img width="577" height="184" alt="Screenshot 2026-03-29 at 4 39 33 PM" src="https://github.com/user-attachments/assets/01a4aba4-f9b2-4300-b583-596e1058a064" />
 
@@ -110,7 +110,7 @@
 
 **Description**: Query 5 provides the user with **tournament_has_team** and **tournament** tables joined, the results grouped by tournament, and counts how many teams are associated with each tournament.
 
-**Managerial Justification**: This can help tournament organizers and managers evaluate the size of each event. Furthermore it can provide insights on staffing, scheduling, facility usage, and better sresource allocation planning by showing which tournaments have the largest number of teams. 
+**Managerial Justification**: This can help tournament organizers and managers evaluate the size of each event. Furthermore it can provide insights on staffing, scheduling, facility usage, and better resource allocation planning by showing which tournaments have the largest number of teams. 
 
 ### Query 6
 <img width="582" height="332" alt="Screenshot 2026-03-29 at 10 03 43 PM" src="https://github.com/user-attachments/assets/adc3fecc-c1f9-48e3-a85b-ad7491ec9710" />
