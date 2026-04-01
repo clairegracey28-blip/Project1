@@ -10,7 +10,7 @@
   4. Andy Smith [@Anderson-MIS](https://github.com/Anderson-MIS)
 
 ## Problem Description:   
-  Problem: Create and build a relational database of a mock 'Major League Volleyball' database to demonstrate relationships between the volleyball league of teams, coaches, tournaments, players, etc. The central entity is the team entity of the volleyball league, displaying multiple relationships to find team specifics, such as name and location. Overall, the goal is to accurately model these relationships by generating sample data and populating each entity and its attributes with relevant sample data from Mockaroo. Furthermore, we aim to enable simple and complex querying of big sample data for team analysts, coaches, administrators, spectators, and other relevant stakeholders. This can show valuable operational and performance insights about teams or the league as a whole.
+  Problem: Our goal is to create and build a relational database of a mock 'Major League Volleyball' database to demonstrate relationships between the volleyball league of teams, coaches, tournaments, players, etc. The central entity is the team entity of the volleyball league, displaying multiple relationships to find team specifics, such as name and location. Overall, the goal is to accurately model these relationships by generating sample data and populating each entity and its attributes with relevant sample data from Mockaroo. Furthermore, we aim to enable simple and complex querying of big sample data for team analysts, coaches, administrators, spectators, and other relevant stakeholders. This can show valuable operational and performance insights about teams or the league as a whole.
 
 ## Data Model:   
   Data Model Description:  
