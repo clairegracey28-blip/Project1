@@ -29,7 +29,7 @@
 
   Within each match, multiple **sets** are played. This means that a one-to-many relationship exists between matches and match_set, having match_set also include attributes like the set number (1-3 since matches can only have up to 3 sets). 
 
-  Throughout the season, teams take part in **tournaments**. Each tournament involves many teams and each team can play in many tournaments, meaning a many-to-many relationship exists between the two. In this many-to-many relationship, the associative entity **tournament_has_team** exists and includes the placement attribute to allow each team to have a placement for each tournament they play in. Additionally, the team entity includes attributes such as the tournament name, date, the ID number of the gym used, and the location of the tournament. 
+  Throughout the season, teams take part in **tournaments**. Each tournament involves many teams and each team can play in many tournaments, meaning a many-to-many relationship exists between the two. In this many-to-many relationship, the associative entity **tournament_has_team** exists and includes the placement attribute to allow each team to have a placement for each tournament they play in. Additionally, the tournament entity includes attributes such as the tournament name, date, the ID number of the gym used, and the location of the tournament. 
 
   Finally, each team has **materials** that they own, and these materials can only belong to one team, creating a one-to-many relationship between team and materials. Additionally, the materials entity includes attributes such as the name of the piece of equipment and its brand. 
 
